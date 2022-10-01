@@ -6,6 +6,6 @@ interface Props {
 
 export default function Greet(props: Props) {
     return (
-        <div>Hello {props.name}</div>
+        <div>Hello {props.name ? props.name : "Guest"}</div>
     )
 }
