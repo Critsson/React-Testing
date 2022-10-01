@@ -8,4 +8,10 @@ describe("Greet", () => {
         expect(textElement).toBeInTheDocument()
     })
 
+    test("renders a name", () => {
+        render(<Greet name = "Chris"/>)
+        const textElement = screen.getByText("Hello Chris")
+        expect(textElement).toBeInTheDocument()
+    })
+
 })
