@@ -1,8 +1,10 @@
 export default function Application() {
     return (
         <>
-            <h1>Job Application Form</h1>
+            <h1 title="test">Job Application Form</h1>
             <h2>Section 1</h2>
+            <p>All fields are mandatory</p>
+            <span title="close">X</span>
             <form>
                 <div>
                     <label htmlFor="name">Name</label>
