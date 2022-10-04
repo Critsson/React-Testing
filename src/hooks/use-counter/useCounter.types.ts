@@ -1,3 +1,3 @@
-export interface UseCounterProps{
-    initialCount?: number
+export interface UseCounterProps {
+  initialCount?: number;
 }
