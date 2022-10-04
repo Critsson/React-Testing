@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 interface Props {
-  name?: string;
+  name?: string
 }
 
 export default function Greet(props: Props) {
-  return <div>Hello {props.name ? props.name : "Guest"}</div>;
+  return <div>Hello {props.name ? props.name : 'Guest'}</div>
 }

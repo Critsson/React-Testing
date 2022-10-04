@@ -34,5 +34,5 @@ export default function Application() {
         <button>Submit</button>
       </form>
     </>
-  );
+  )
 }

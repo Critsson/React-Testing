@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
 export default function Counter() {
-  const [count, setCount] = React.useState(0);
-  const [amount, setAmount] = React.useState(0);
+  const [count, setCount] = React.useState(0)
+  const [amount, setAmount] = React.useState(0)
 
   return (
     <div>
@@ -17,5 +17,5 @@ export default function Counter() {
       <button onClick={() => setCount(amount)}>Set</button>
       <button onClick={() => setCount(0)}>Reset</button>
     </div>
-  );
+  )
 }
